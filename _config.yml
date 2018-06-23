@@ -57,11 +57,11 @@ kramdown:
 
 # 评论系统
 # Disqus（https://disqus.com/）
-# disqus_username: igeeker
+disqus_username: igeeker
 
 # Gitalk
 gitalk:
-  enable: true    #是否开启Gitalk评论
+  enable: false    #是否开启Gitalk评论
   clientID: d3152383f96a0a9f3e62                            #生成的clientID
   clientSecret: 5eae6865cc25e7cf847a558c3c52446af9ecf7d3    #生成的clientSecret
   repo: igeeker.github.io    #仓库名称
