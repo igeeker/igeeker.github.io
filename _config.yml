@@ -1,29 +1,29 @@
 # Site settings
-title: BY Blog
-SEOTitle: 柏荧的博客 | BY Blog
+title: 极客网志
+SEOTitle: 极客网志 | 记录悲惨生活
 header-img: img/post-bg-desk.jpg
-email: qiubaiying@gmail.com
-description: "Every failure is leading towards success."
-keyword: "BY, BY Blog, 柏荧的博客, qiubaiying, 邱柏荧, iOS, Apple, iPhone"
-url: "http://qiubaiying.github.io"          # your host, for absolute URL
+email: liukai.mvp@gmail.com
+description: "一个人的折腾"
+keyword: "igeeker, igeeker‘s blog, 极客网志"
+url: "http://igeeker.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/qiubaiying/qiubaiying.github.io.git" # you code repository
+github_repo: "https://github.com/igeeker/igeeker.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Goals determine what you going to be!"
+sidebar-about-description: "不折腾会死会死会死"
 sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
 # SNS settings
 RSS: false
-# weibo_username:     qiubaiying
-zhihu_username:     qiubaiying
-github_username:    qiubaiying
-facebook_username:  baiying.qiu.7
-jianshu_username:   e71990ada2fd
-#twitter_username:   qiubaiying
+weibo_username:     igeeker
+# zhihu_username:     qiubaiying
+github_username:    igeeker
+facebook_username:  igeeker
+# jianshu_username:   e71990ada2fd
+twitter_username:   igeeker
 
 
 
@@ -57,16 +57,16 @@ kramdown:
 
 # 评论系统
 # Disqus（https://disqus.com/）
-# disqus_username: qiubaiying
+# disqus_username: igeeker
 
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
-  clientID: f2c84e7629bb1446c1a4                            #生成的clientID
-  clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
-  repo: qiubaiying.github.io    #仓库名称
-  owner: qiubaiying    #github用户名
-  admin: qiubaiying
+  clientID: d3152383f96a0a9f3e62                            #生成的clientID
+  clientSecret: 5eae6865cc25e7cf847a558c3c52446af9ecf7d3    #生成的clientSecret
+  repo: igeeker.github.io    #仓库名称
+  owner: igeeker    #github用户名
+  admin: igeeker
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
@@ -74,11 +74,11 @@ gitalk:
 
 # Analytics settings
 # Baidu Analytics
-ba_track_id: b50bf2b12b5338a1845e33832976fd68
+# ba_track_id: b50bf2b12b5338a1845e33832976fd68
 
 # Google Analytics
-ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
-ga_domain: qiubaiying.top               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+ga_track_id: 'UA-121324923-1'            # Format: UA-xxxxxx-xx
+ga_domain: auto               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
 
@@ -86,7 +86,7 @@ ga_domain: qiubaiying.top               # 默认的是 auto, 这里我是自定�
 
 # Featured Tags
 featured-tags: true                     # 是否使用首页标签
-featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
+featured-condition-size: 2              # 相同标签数量大于这个数，才会出现在首页
 
 
 
@@ -99,16 +99,16 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "WY",
-        href: "http://zhengwuyang.com"
-    },{
-        title: "简书·BY",
-        href: "http://www.jianshu.com/u/e71990ada2fd"
+        title: "Google",
+        href: "https://www.google.com/"
     },{
         title: "Apple",
         href: "https://apple.com"
     },{
-        title: "Apple Developer",
-        href: "https://developer.apple.com/"
+        title: "GitHub",
+        href: "https://github.com"
+    },{
+        title: "About.me",
+        href: "https://about.me/igeeker"
     }
 ]
