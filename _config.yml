@@ -1,0 +1,109 @@
+# Site settings
+title: 极客网志
+SEOTitle: 极客网志 | 记录悲惨生活
+header-img: img/post-bg-desk.jpg
+email: hi@liukai.lk
+description: "记录悲惨生活"
+keyword: "igeeker, igeeker‘s blog, 极客网志"
+url: "http://igeeker.github.io"          # your host, for absolute URL
+baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
+github_repo: "https://github.com/igeeker/igeeker.github.io.git" # you code repository
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "一个消极悲观的理想主义者，却以积极乐观的姿态活在这个现实主义的国度。"
+sidebar-avatar: /img/about-me-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# SNS settings
+RSS: true
+weibo_username:     igeeker
+# jianshu_username:   xfyqAx
+# zhihu_username:   igeeker
+twitter_username:   igeeker
+facebook_username:  igeeker
+# inkedin_username:  igeeker
+# github_username:   igeeker
+
+
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
+
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
+# 评论系统
+# Disqus（https://disqus.com/）
+disqus_username: igeeker
+
+# Gitalk
+gitalk:
+  enable: false    #是否开启Gitalk评论
+  clientID: d3152383f96a0a9f3e62                            #生成的clientID
+  clientSecret: 5eae6865cc25e7cf847a558c3c52446af9ecf7d3    #生成的clientSecret
+  repo: igeeker.github.io    #仓库名称
+  owner: igeeker    #github用户名
+  admin: igeeker
+  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+
+
+# 统计
+
+# Analytics settings
+# Baidu Analytics
+# ba_track_id: b50bf2b12b5338a1845e33832976fd68
+
+# Google Analytics
+ga_track_id: 'UA-121324923-1'            # Format: UA-xxxxxx-xx
+ga_domain: auto               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+
+
+
+
+
+# Featured Tags
+featured-tags: false                     # 是否使用首页标签
+featured-condition-size: 0              # 相同标签数量大于这个数，才会出现在首页
+
+
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+
+
+# Friends
+# friends: [
+#    {
+#        title: "Google",
+#        href: "https://www.google.com/"
+#    },{
+#        title: "LiuKai",
+#        href: "https://www.liukai.lk"
+#    }
+#]
