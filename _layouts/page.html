@@ -133,12 +133,12 @@ layout: default
                                 </a>
                             </li>
                             {% endif %}
-                            {% if site.twitter_username %}
+                            {% if site.weibo_username %}
                             <li>
-                                <a href="https://twitter.com/{{ site.twitter_username }}">
+                                <a target="_blank" href="https://weibo.com/{{ site.weibo_username }}">
                                     <span class="fa-stack fa-lg">
                                         <i class="fa fa-circle fa-stack-2x"></i>
-                                        <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                        <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
                                     </span>
                                 </a>
                             </li>
@@ -153,12 +153,12 @@ layout: default
                                 </a>
                             </li>
                             {% endif %}
-                            {% if site.weibo_username %}
+                            {% if site.twitter_username %}
                             <li>
-                                <a target="_blank" href="https://weibo.com/{{ site.weibo_username }}">
+                                <a href="https://twitter.com/{{ site.twitter_username }}">
                                     <span class="fa-stack fa-lg">
                                         <i class="fa fa-circle fa-stack-2x"></i>
-                                        <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
+                                        <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
                                     </span>
                                 </a>
                             </li>
@@ -166,6 +166,16 @@ layout: default
                             {% if site.facebook_username %}
                             <li>
                                 <a target="_blank" href="https://www.facebook.com/{{ site.facebook_username }}">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            {% endif %}
+                            {% if ite.linkedin_username %}
+                            <li>
+                                <a target="_blank" href="https://www.linkedin.com/in/{{ site.linkedin_username }}">
                                     <span class="fa-stack fa-lg">
                                         <i class="fa fa-circle fa-stack-2x"></i>
                                         <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
