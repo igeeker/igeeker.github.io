@@ -3,7 +3,7 @@ layout:     post
 title:      Hello world!
 subtitle:   这是一篇测试文章
 date:       2021-01-01
-author:     Kim
+author:     LiuKai
 header-img: img/post-bg-universe.jpg
 catalog: true
 tags:
