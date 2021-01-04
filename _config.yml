@@ -1,9 +1,9 @@
 # Site settings
 title: 莱锦德锐
-SEOTitle: 莱锦德锐 | 记录悲惨生活
+SEOTitle: 莱锦德锐 | 生命在于折腾
 header-img: img/home-bg-milky-way.jpg
 email: hi@liukai.lk
-description: "记录悲惨生活"
+description: "生命在于折腾"
 keyword: ""
 url: "https://igeeker.github.io"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
@@ -87,7 +87,7 @@ valine_appKey: nAy4XrI8I488Vn349MAQD673
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "一个脱离高级趣味的人"
+sidebar-about-description: "不想做好产品的极客不是好创作者"
 sidebar-avatar: /img/avatar-liukai.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
