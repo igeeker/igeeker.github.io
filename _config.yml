@@ -1,6 +1,6 @@
 # Site settings
 title: 莱锦德锐
-SEOTitle: 莱锦德锐 | 记录悲催生活
+SEOTitle: 莱锦德锐 | 记录悲惨生活
 header-img: img/home-bg-milky-way.jpg
 email: hi@liukai.lk
 description: "记录悲惨生活"
@@ -13,17 +13,18 @@ github_repo: "https://github.com/igeeker/igeeker.github.io.git" # you code repos
 future: true
 
 # SNS settings
-RSS: true
+RSS: false
 email_address: hi@liukai.lk
+telegram_username: liukai
 website: true
-jianshu_username:   xfyqAx
-weibo_username:     igeeker
-zhihu_username:   igeeker
+#jianshu_username:   xfyqAx
+#weibo_username:     igeeker
+#zhihu_username:   igeeker
 about_me_username: igeeker
-github_username:   igeeker
-twitter_username:   igeeker
-facebook_username:  igeeker
-linkedin_username:  igeeker
+#github_username:   igeeker
+#twitter_username:   igeeker
+#facebook_username:  igeeker
+#linkedin_username:  igeeker
 
 
 
